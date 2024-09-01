@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>ROYAL HOTEL</title>
+
+</head> 
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="https://th.bing.com/th/id/OIP.hel4imDFnK_YR2POELdZCAHaFj?w=1000&h=750&rs=1&pid=ImgDetMain" class="logo">
+            <ul>
+                
+                <li><a href="C:\Users\user\Desktop\HTML\price.html\WhatsApp Image 2024-08-31 at 19.39.32_3295a559.jpg">Restaurant</a></li>
+                <li><a href="C:\Users\user\Desktop\HTML\price.html\WhatsApp Image 2024-08-31 at 19.39.32_95626a50.jpg">Gallery</a></li>
+                <li><a href="C:\Users\user\Desktop\HTML\price.html\WhatsApp Image 2024-08-31 at 19.39.32_695dabd2.jpg">Pool</a></li>
+                <li><a href="C:\Users\user\Desktop\HTML\price.html\WhatsApp Image 2024-08-31 at 19.39.32_a86c3085.jpg">Rooms</a></li>
+
+        </div>
+
+        <div class="content">
+           <a href="prices.html">
+            <button type="button"><span></span>ROOM<br>PRICES</button>
+           </a> 
+           <a href="reservation.html.html">
+            <button type="button"><span></span>ONLINE<br>RESERVATION</button>
+           </a>
+            
+        <div>
+            LOCATION:EAST LEGON OPPOSITE MDS-LANCERT,ACCRA-GHANA<br>
+            <br>
+            TELEPHONE:+233503476534/+233556550879 
+            
+        </div>
+    </div>
+
+
+
+
+
+        <title>HOTEL ROOM PRICES</title>
+        
+    
+        <div class="banner">
+           <img src="https://th.bing.com/th/id/OIP.hel4imDFnK_YR2POELdZCAHaFj?w=1000&h=750&rs=1&pid=ImgDetMain" class="logo">
+        </div>
+
+        <div class="container">
+            <h1>ROOM PRICES</h1>
+        
+        <div class="hotel-table"></div>    
+            <table class="hotel-table">
+                <thead>
+                    <tr>
+                        <th>Room Type</th>
+                        <th>Prices Per Night($)</th>
+                        <th>Max Occupancy</th>
+                        <th>Amenities</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Single</td>
+                        <td>$1,000.00</td>
+                        <td>1</td>
+                        <td>Free Breakfast,Free Wi-Fi,TV,AC,Jacuzzi</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Standard Room</td>
+                        <td>$2,000.00</td>
+                        <td>2</td>
+                        <td>Free Breakfast,Free Wi-Fi,Tv,AC,Jacuzzi,Bathrobes,Complimentary Beverages</td>
+                    </tr>
+
+                    <tr>
+                        <td>Family Room</td>
+                        <td>$4,000.00</td>
+                        <td>4</td>
+                        <td>Free Breakfast,Free Wi-Fi,Tv,AC,Jacuzzi,Bathrobes,Complimentary Beverages,Desks & Workspaces,Laundry Bags,Snack Basket with Drinks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+
+    </body>
+</html>
+
+
+
+<style>
+{
+  margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none; 
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:goldenrod;
+}
+.content h1{
+    font-size: 100%;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: goldenrod;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+p2{
+    
+}
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.reservation-form{
+width: 100%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+color:goldenrod;
+font-size: 100%;
+margin-top: 80px;
+margin: 20px auto;
+font-weight: 100;
+line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: goldenrod;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+</style>
